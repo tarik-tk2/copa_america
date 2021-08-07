@@ -29,9 +29,15 @@ body {
 .card > a > img {
   width: 100%;
 }
+
 .card > a {
   text-decoration: none;
   color: black;
+}
+.card :hover> img {
+  width: 101%;
+  margin: auto;
+  overflow: hidden;
 }
 .viedo-card {
   height: 200px;
@@ -170,7 +176,9 @@ root-footer {
   .card > img {
     width: 100%;
   }
-  .player-section ,.viedo{
+
+  .player-section,
+  .viedo {
     margin: auto;
     width: 80%;
     display: block;
