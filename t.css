@@ -1,0 +1,391 @@
+* .player-section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+*/
+.player-section > .card {
+  margin: 13px;
+}
+.card {
+  padding: 10px;
+  height: 100px;
+  width: 10%;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+ .card > img {
+  width: 30%;
+} 
+
+.banner {
+  margin: 0;
+  padding: 0;
+  height: 600px;
+  width: 100%;
+  background-color: rgba(37, 37, 179, 0.932);
+}
+.left-banner > h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+.root-banner {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.right-banner > img {
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 100%;
+}
+.left-banner {
+  width: 40%;
+}
+.left-banner > span {
+  padding: 5px;
+}
+.right-banner {
+  width: 50%;
+}
+.left-banner > p > span,
+.left-bottom > p > span {
+  background-color: rgba(243, 7, 46, 0.87);
+  padding: 10px;
+  border-radius: 10px;
+}
+.left-banner > p > span:hover,
+.left-bottom > p > span:hover {
+  background-color: rgb(44, 1, 21);
+}
+.left-banner > p > span > a,
+.left-bottom > p > span > a {
+  text-decoration: none;
+  color: #fff;
+}
+.bottom {
+  padding-top: 100px;
+  width: 80%;
+  margin: auto;
+}
+.root-bottom {
+  display: flex;
+}
+.left-bottom {
+  width: 50%;
+}
+.left-bottom > h1 {
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: 900;
+  font-size: 3em;
+}
+.right-bottom {
+  width: 50%;
+}
+.right-bottom > img {
+  width: 100%;
+}
+.footer {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+root-footer {
+  width: 80%;
+}
+.logo > img {
+  width: 40%;
+}
+.social {
+  display: flex;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+.social > a {
+  text-align: center;
+  padding: 9px;
+  align-items: center;
+}
+.social > a > img {
+  width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: rgb(252, 252, 252);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Georama", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
+  }
+   .player-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  } 
+   .player-section > .card {
+    margin: 13px;
+  }
+  .card {
+    padding: 10px;
+    height: 450px;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card > img {
+    width: 100%;
+  }
+  .card:hover > img {
+    width: 101%;
+  } 
+
+  .banner {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(37, 37, 179, 0.932);
+  }
+  .left-banner > h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+  }
+  .root-banner {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .right-banner > img {
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 100%;
+  }
+  .left-banner {
+    width: 40%;
+  }
+  .left-banner > span {
+    padding: 5px;
+  }
+  .right-banner {
+    width: 50%;
+  }
+  .left-banner > p > span,
+  .left-bottom > p > span {
+    background-color: rgba(243, 7, 46, 0.87);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .left-banner > p > span > a,
+  .left-bottom > p > span > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .bottom {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+  }
+  .root-bottom {
+    display: flex;
+  }
+  .left-bottom {
+    width: 50%;
+  }
+  .left-bottom > h1 {
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: 900;
+    font-size: 3em;
+  }
+  .right-bottom {
+    width: 50%;
+  }
+  .right-bottom > img {
+    width: 100%;
+  }
+  .footer {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  root-footer {
+    width: 80%;
+  }
+  .logo > img {
+    width: 40%;
+  }
+  .social {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+  .social > a {
+    text-align: center;
+    padding: 9px;
+    align-items: center;
+  }
+  .social > a > img {
+    width: 80%;
+  }
+}
+
+/* small devices media queries */
+@media only screen and (max-width: 600px) {
+  body {
+    background: rgb(255, 254, 254);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Georama", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
+  }
+  .player-section > .card {
+    margin-left: 0;
+    margin: 13px;
+  }
+  .card {
+    padding: 10px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card > img {
+    width: 100%;
+  }
+  .player-section {
+    margin: auto;
+    width: 80%;
+    display: block;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 70px;
+  }
+
+  .root {
+    margin-left: 0;
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .banner {
+    height: 750px;
+    width: 100%;
+    background-color: rgba(37, 37, 179, 0.932);
+  }
+  .root-banner {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .right-banner {
+    width: 100%;
+  }
+  .left-banner {
+    width: 100%;
+  }
+  .right-banner > img,
+  .right-bottom {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .root-bottom {
+    display: block;
+  }
+  .social > a > img {
+    width: 150%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background: rgb(255, 254, 254);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Georama", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
+  }
+  .player-section > .card {
+    margin-left: 0;
+    margin: 13px;
+  }
+  .card {
+    padding: 10px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card > img {
+    width: 100%;
+  }
+  .player-section {
+    margin: auto;
+    width: 80%;
+    display: block;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 70px;
+  }
+
+  .root {
+    margin-left: 0;
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .banner {
+    height: 750px;
+    width: 100%;
+    background-color: rgba(37, 37, 179, 0.932);
+  }
+  .root-banner {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .right-banner {
+    width: 100%;
+  }
+  .left-banner {
+    width: 100%;
+  }
+  .right-banner > img,
+  .right-bottom {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .root-bottom {
+    display: block;
+  }
+  .social > a > img {
+    width: 150%;
+  }
+}
