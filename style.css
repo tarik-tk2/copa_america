@@ -34,12 +34,13 @@ body {
   text-decoration: none;
   color: black;
 }
-.card :hover> img {
+.card :hover > img {
   width: 101%;
   margin: auto;
   overflow: hidden;
 }
-.viedo-card {
+.viedo-card,
+.result-card {
   height: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 400px;
@@ -47,15 +48,31 @@ body {
   border-radius: 10px;
   /* display: flex; */
 }
+.result-card {
+  display: flex;
+}
+.result-left,
+.result-right {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
 .viedo-card > iframe {
   width: 100%;
   height: 100%;
 }
-.bottom-down {
+
+.bottom-down,
+.result-section {
   width: 80%;
   margin: auto;
 }
-.viedo {
+.icon > img {
+  width: 30%;
+}
+.viedo,
+.results {
   display: flex;
 }
 .banner {
@@ -81,6 +98,13 @@ body {
   padding-top: 100px;
   padding-left: 100px;
   width: 100%;
+  transform: perspective(1500px) rotateY(15deg);
+  border-radius: 1rem;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+  transition: transform 1s ease 0s;
+}
+.right-banner > img:hover {
+  transform: perspective(3000px) rotateY(5deg);
 }
 .left-banner {
   width: 40%;
@@ -97,10 +121,15 @@ body {
   padding: 10px;
   border-radius: 10px;
 }
+.left-banner > p > span:hover,
+.left-bottom > p > span:hover {
+  text-decoration: none;
+  background-color: rgb(209, 150, 150);
+  transition: background-color 2s ease-out;
+}
 .left-banner > p > span > a,
 .left-bottom > p > span > a {
   text-decoration: none;
-  color: #fff;
 }
 .bottom {
   padding-top: 100px;
@@ -140,6 +169,7 @@ root-footer {
   width: 30%;
   text-align: center;
   margin: auto;
+ 
 }
 .social > a {
   text-align: center;
@@ -178,7 +208,7 @@ root-footer {
   }
 
   .player-section,
-  .viedo {
+  .viedo ,.results{
     margin: auto;
     width: 80%;
     display: block;
